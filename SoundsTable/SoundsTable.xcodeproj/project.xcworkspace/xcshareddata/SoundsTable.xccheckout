@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D532C252-E6F2-4A0E-AA38-1DDD7CFD4D3D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SoundsTable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>102B60C1FEAE4064978BA06F896E0F425FD5B460</key>
+		<string>github.com:ganchau/soundsTable-ios-0615.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SoundsTable/SoundsTable.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>102B60C1FEAE4064978BA06F896E0F425FD5B460</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ganchau/soundsTable-ios-0615.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>102B60C1FEAE4064978BA06F896E0F425FD5B460</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>102B60C1FEAE4064978BA06F896E0F425FD5B460</string>
+			<key>IDESourceControlWCCName</key>
+			<string>soundsTable-ios-0615</string>
+		</dict>
+	</array>
+</dict>
+</plist>

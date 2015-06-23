@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1F09051B39003B00D135DD /* SliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F09041B39003B00D135DD /* SliderTableViewCell.m */; };
+		BD1F09081B390CAB00D135DD /* RingtoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F09071B390CAB00D135DD /* RingtoneTableViewCell.m */; };
+		BDC42EEA1B38F5930040A677 /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC42EE91B38F5930040A677 /* SwitchTableViewCell.m */; };
+		BDE6264A1B33366600E71110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE626491B33366600E71110 /* main.m */; };
+		BDE6264D1B33366600E71110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6264C1B33366600E71110 /* AppDelegate.m */; };
+		BDE626531B33366600E71110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE626511B33366600E71110 /* Main.storyboard */; };
+		BDE626551B33366600E71110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE626541B33366600E71110 /* Images.xcassets */; };
+		BDE626581B33366600E71110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE626561B33366600E71110 /* LaunchScreen.xib */; };
+		BDE626641B33366600E71110 /* SoundsTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE626631B33366600E71110 /* SoundsTableTests.m */; };
+		BDE6266F1B33373000E71110 /* SoundsTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6266E1B33373000E71110 /* SoundsTableTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE6265E1B33366600E71110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE6263C1B33366600E71110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE626431B33366600E71110;
+			remoteInfo = SoundsTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1F09031B39003B00D135DD /* SliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderTableViewCell.h; path = ../SliderTableViewCell.h; sourceTree = "<group>"; };
+		BD1F09041B39003B00D135DD /* SliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderTableViewCell.m; path = ../SliderTableViewCell.m; sourceTree = "<group>"; };
+		BD1F09061B390CAB00D135DD /* RingtoneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingtoneTableViewCell.h; sourceTree = "<group>"; };
+		BD1F09071B390CAB00D135DD /* RingtoneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingtoneTableViewCell.m; sourceTree = "<group>"; };
+		BDC42EE81B38F5930040A677 /* SwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTableViewCell.h; sourceTree = "<group>"; };
+		BDC42EE91B38F5930040A677 /* SwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTableViewCell.m; sourceTree = "<group>"; };
+		BDE626441B33366600E71110 /* SoundsTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundsTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE626481B33366600E71110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE626491B33366600E71110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDE6264B1B33366600E71110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDE6264C1B33366600E71110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDE626521B33366600E71110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE626541B33366600E71110 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDE626571B33366600E71110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDE6265D1B33366600E71110 /* SoundsTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundsTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE626621B33366600E71110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE626631B33366600E71110 /* SoundsTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundsTableTests.m; sourceTree = "<group>"; };
+		BDE6266D1B33373000E71110 /* SoundsTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundsTableTableViewController.h; sourceTree = "<group>"; };
+		BDE6266E1B33373000E71110 /* SoundsTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundsTableTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE626411B33366600E71110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE6265A1B33366600E71110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE6263B1B33366600E71110 = {
+			isa = PBXGroup;
+			children = (
+				BDE626461B33366600E71110 /* SoundsTable */,
+				BDE626601B33366600E71110 /* SoundsTableTests */,
+				BDE626451B33366600E71110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE626451B33366600E71110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE626441B33366600E71110 /* SoundsTable.app */,
+				BDE6265D1B33366600E71110 /* SoundsTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE626461B33366600E71110 /* SoundsTable */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F09031B39003B00D135DD /* SliderTableViewCell.h */,
+				BD1F09041B39003B00D135DD /* SliderTableViewCell.m */,
+				BDC42EE81B38F5930040A677 /* SwitchTableViewCell.h */,
+				BDC42EE91B38F5930040A677 /* SwitchTableViewCell.m */,
+				BD1F09061B390CAB00D135DD /* RingtoneTableViewCell.h */,
+				BD1F09071B390CAB00D135DD /* RingtoneTableViewCell.m */,
+				BDE6266D1B33373000E71110 /* SoundsTableTableViewController.h */,
+				BDE6266E1B33373000E71110 /* SoundsTableTableViewController.m */,
+				BDE626511B33366600E71110 /* Main.storyboard */,
+				BDE626541B33366600E71110 /* Images.xcassets */,
+				BDE626561B33366600E71110 /* LaunchScreen.xib */,
+				BDE626471B33366600E71110 /* Supporting Files */,
+			);
+			path = SoundsTable;
+			sourceTree = "<group>";
+		};
+		BDE626471B33366600E71110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6264B1B33366600E71110 /* AppDelegate.h */,
+				BDE6264C1B33366600E71110 /* AppDelegate.m */,
+				BDE626481B33366600E71110 /* Info.plist */,
+				BDE626491B33366600E71110 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDE626601B33366600E71110 /* SoundsTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE626631B33366600E71110 /* SoundsTableTests.m */,
+				BDE626611B33366600E71110 /* Supporting Files */,
+			);
+			path = SoundsTableTests;
+			sourceTree = "<group>";
+		};
+		BDE626611B33366600E71110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE626621B33366600E71110 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE626431B33366600E71110 /* SoundsTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE626671B33366600E71110 /* Build configuration list for PBXNativeTarget "SoundsTable" */;
+			buildPhases = (
+				BDE626401B33366600E71110 /* Sources */,
+				BDE626411B33366600E71110 /* Frameworks */,
+				BDE626421B33366600E71110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundsTable;
+			productName = SoundsTable;
+			productReference = BDE626441B33366600E71110 /* SoundsTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE6265C1B33366600E71110 /* SoundsTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE6266A1B33366600E71110 /* Build configuration list for PBXNativeTarget "SoundsTableTests" */;
+			buildPhases = (
+				BDE626591B33366600E71110 /* Sources */,
+				BDE6265A1B33366600E71110 /* Frameworks */,
+				BDE6265B1B33366600E71110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE6265F1B33366600E71110 /* PBXTargetDependency */,
+			);
+			name = SoundsTableTests;
+			productName = SoundsTableTests;
+			productReference = BDE6265D1B33366600E71110 /* SoundsTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE6263C1B33366600E71110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gantastic App";
+				TargetAttributes = {
+					BDE626431B33366600E71110 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BDE6265C1B33366600E71110 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BDE626431B33366600E71110;
+					};
+				};
+			};
+			buildConfigurationList = BDE6263F1B33366600E71110 /* Build configuration list for PBXProject "SoundsTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE6263B1B33366600E71110;
+			productRefGroup = BDE626451B33366600E71110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE626431B33366600E71110 /* SoundsTable */,
+				BDE6265C1B33366600E71110 /* SoundsTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE626421B33366600E71110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE626531B33366600E71110 /* Main.storyboard in Resources */,
+				BDE626581B33366600E71110 /* LaunchScreen.xib in Resources */,
+				BDE626551B33366600E71110 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE6265B1B33366600E71110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE626401B33366600E71110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE6266F1B33373000E71110 /* SoundsTableTableViewController.m in Sources */,
+				BDC42EEA1B38F5930040A677 /* SwitchTableViewCell.m in Sources */,
+				BDE6264D1B33366600E71110 /* AppDelegate.m in Sources */,
+				BD1F09081B390CAB00D135DD /* RingtoneTableViewCell.m in Sources */,
+				BDE6264A1B33366600E71110 /* main.m in Sources */,
+				BD1F09051B39003B00D135DD /* SliderTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE626591B33366600E71110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE626641B33366600E71110 /* SoundsTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE6265F1B33366600E71110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE626431B33366600E71110 /* SoundsTable */;
+			targetProxy = BDE6265E1B33366600E71110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE626511B33366600E71110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE626521B33366600E71110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE626561B33366600E71110 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE626571B33366600E71110 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE626651B33366600E71110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDE626661B33366600E71110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE626681B33366600E71110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundsTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDE626691B33366600E71110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundsTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDE6266B1B33366600E71110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoundsTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundsTable.app/SoundsTable";
+			};
+			name = Debug;
+		};
+		BDE6266C1B33366600E71110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoundsTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundsTable.app/SoundsTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE6263F1B33366600E71110 /* Build configuration list for PBXProject "SoundsTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE626651B33366600E71110 /* Debug */,
+				BDE626661B33366600E71110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE626671B33366600E71110 /* Build configuration list for PBXNativeTarget "SoundsTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE626681B33366600E71110 /* Debug */,
+				BDE626691B33366600E71110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE6266A1B33366600E71110 /* Build configuration list for PBXNativeTarget "SoundsTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE6266B1B33366600E71110 /* Debug */,
+				BDE6266C1B33366600E71110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE6263C1B33366600E71110 /* Project object */;
+}
